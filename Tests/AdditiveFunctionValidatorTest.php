@@ -9,13 +9,6 @@ use Pardot\Exercise\AdditiveFunctionValidator;
  */
 class AdditiveFunctionValidatorTest extends \PHPUnit_Framework_TestCase
 {
-    private $primes = [
-        2,
-        3,
-        5,
-        7,
-    ];
-
     public function testFunctionIsAdditive()
     {
         $isAdditive = function ($x) {
